@@ -14,16 +14,7 @@ export default function Testimonials() {
     arrows: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: (
-      <div className="custom-prev-arrow">
-        <img src="images/back.png" alt="Prev" />
-      </div>
-    ),
-    nextArrow: (
-      <div className="custom-next-arrow">
-        <img src="images/next.png" alt="Next" />
-      </div>
-    ),
+
     responsive: [
       {
         breakpoint: 1300,
