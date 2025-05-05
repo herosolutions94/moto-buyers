@@ -28,31 +28,44 @@ export default function Header() {
         <nav id="nav" className={toggle ? "active" : ""}>
           <ul>
             <li>
-              <Link href="/" onClick={ToggleAction}>
+              <Link href="/how_it_works" onClick={ToggleAction}>
                 How It Works
               </Link>
             </li>
             <li>
-              <Link href="/about" onClick={ToggleAction}>
+              <Link href="/compare" onClick={ToggleAction}>
                 Compare Moto Buyers
               </Link>
             </li>
-            {/* <li>
+            <li className="drop">
               <Link href="" onClick={ToggleAction}>
-                Work
-              </Link>
-            </li> */}
-            <li>
-              <Link href="/work" onClick={ToggleAction}>
                 More
               </Link>
+              <ul className="sub">
+                <li>
+                  <Link href="/appointment" onClick={ToggleAction}>
+                    Appointment tips
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/quote" onClick={ToggleAction}>
+                    Our Quote
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/FAQs" onClick={ToggleAction}>
+                    FAQ
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contact" onClick={ToggleAction}>
+                    Contact Us
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li>
-              <Link
-                href="/contact"
-                onClick={ToggleAction}
-                className="site_btn round"
-              >
+              <Link href="" onClick={ToggleAction} className="site_btn round">
                 Get my Offer
               </Link>
             </li>

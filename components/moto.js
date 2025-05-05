@@ -1,10 +1,10 @@
 import React from "react";
 
-const Moto = () => {
+const Moto = ({ className = "" }) => {
   return (
     <>
       {/* =======  moto-vs ===== */}
-      <section className="moto-vs">
+      <section className={`moto-vs ${className}`}>
         <div className="contain">
           <div className="sec_center_heading">
             <h2>Moto Buyers vs. Private Sale</h2>

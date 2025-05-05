@@ -1,10 +1,10 @@
 import React from "react";
-import Testimonials from "../../components/testimonials";
-const Testimonial = () => {
+import Testimonials from "./testimonials";
+const Testimonial = ({ className = "" }) => {
   return (
     <>
       {/* ==== testimonials ======== */}
-      <section className="testimonials">
+      <section className={`testimonials ${className}`}>
         <div className="contain">
           <div className="sec_center_heading">
             <h2>Trusted by Real Riders</h2>

@@ -1,10 +1,10 @@
 import React from "react";
 import Banner from "./home/banner";
 import Work from "./home/work";
-import Moto from "./home/moto";
+import Moto from "../components/moto";
 import Offers from "./home/offers";
-import Smart from "./home/smart";
-import Testimonial from "./home/testimonial";
+import Smart from "../components/smart";
+import Testimonial from "../components/testimonial";
 export default function index() {
   return (
     <>

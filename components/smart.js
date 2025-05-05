@@ -1,10 +1,10 @@
 import Link from "next/link";
 import React from "react";
-const Smart = () => {
+const Smart = ({ className = "" }) => {
   return (
     <>
       {/* ======= sell_smart_way ======= */}
-      <section className="sell_smart_way">
+      <section className={`sell_smart_way ${className}`}>
         <div className="contain">
           <div className="flex">
             <div className="col1">
