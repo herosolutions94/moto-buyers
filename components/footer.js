@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flexRow">
             <div className="col">
               <div className="footerLogo">
-                <Link href="index.php">
+                <Link href="/">
                   <img src="images/footer.png" alt="" />
                 </Link>
               </div>
@@ -35,13 +35,13 @@ const Footer = () => {
               <h4>Quick Links</h4>
               <ul className="fst">
                 <li>
-                  <Link href="index.php"> Home</Link>
+                  <Link href="/"> Home</Link>
                 </li>
                 <li>
-                  <Link href="about.php">How It Works</Link>
+                  <Link href="/how_it_works">How It Works</Link>
                 </li>
                 <li>
-                  <Link href="service.php">Compare Moto Buyers</Link>
+                  <Link href="/compare">Compare Moto Buyers</Link>
                 </li>
               </ul>
             </div>
@@ -49,17 +49,17 @@ const Footer = () => {
               <h4>More Links</h4>
               <ul className="fst">
                 <li>
-                  <Link href="index.php">Contact Us</Link>
+                  <Link href="/contact">Contact Us</Link>
                 </li>
                 <li>
-                  <Link href="about.php">FAQ</Link>
+                  <Link href="/FAQs">FAQ</Link>
                 </li>
                 <li>
-                  <Link href="service.php">Appointment Tips</Link>
+                  <Link href="/appointment">Appointment Tips</Link>
                 </li>
 
                 <li>
-                  <Link href="contact.php">Our Appraisals</Link>
+                  <Link href="/quote">Our Appraisals</Link>
                 </li>
               </ul>
             </div>
