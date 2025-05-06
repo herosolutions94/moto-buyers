@@ -10,7 +10,7 @@ const FAQs = () => {
   };
   const faqData = [
     {
-      title: "General Questions",
+      title: "Frequently Asked Questions",
       items: [
         {
           title: "What is MotoBuyers?",
